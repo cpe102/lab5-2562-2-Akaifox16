@@ -9,9 +9,9 @@ int main(){
 	string name[N];
 	int age[N];
 	for(int i = 0 ; i < N ;i++){
-	cout << "Name of student" << i+1 <<" = ";
+	cout << "Name of student " << i+1 <<" = ";
 	cin >> name[i];
-	cout << "Age of student"  << i+1 <<" = ";
+	cout << "Age of student "  << i+1 <<" = ";
 	cin >> age[i];
 	}
 	
