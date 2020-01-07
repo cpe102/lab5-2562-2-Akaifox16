@@ -1,8 +1,19 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
-
-
+string mixText(string a,string b){
+	string mix = {};
+	if(a.size() == b.size()){
+		for(int i=0 ; i < a.size();i++){
+			mix += a[i];
+			mix += b[i];
+		}
+		return mix;
+	}else{
+		return "E";
+	}
+}
 
 int main(){	
 	cout << mixText("AAA","BBB") << "\n";
